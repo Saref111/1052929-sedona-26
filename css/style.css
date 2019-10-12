@@ -72,6 +72,8 @@ body {
 .total-wrap {
   margin: 0 auto;
   width: 1200px;
+
+  box-shadow: 0px 5px 15px 0px rgba(0, 0, 0, 0.2);
 }
 
 /*HEADER*/
