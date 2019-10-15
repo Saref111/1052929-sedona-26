@@ -132,6 +132,12 @@ body {
 .user-nav li:nth-child(4) {
   margin-left: 92px;
   margin-right: 71px;
+
+  text-align: right;
+}
+
+.user-nav li:nth-child(3){
+  text-align: right;
 }
 
 .user-nav-item {
@@ -425,6 +431,8 @@ body {
 /*locations*/
 
 .locations {
+  position: relative;
+
   width: 100%;
   padding-top: 50px;
 
@@ -483,6 +491,145 @@ body {
 
   background-color: #503e33;
 }
+
+/*Pop-up*/
+
+.search-area{
+  position: absolute;
+  top: 290px;
+  left: 316px;
+
+  width: 568px;
+
+  background-color: #ffffff;
+}
+
+.search-area form{
+  width: 100%;
+  padding: 56px 55px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.search-area p{
+  position: relative;
+
+  margin: 0;
+
+  text-align: left;
+
+}
+
+.time-in label,
+.time-out label{
+  font-size: 14px;
+  font-weight: 700;
+  letter-spacing: 0.4px;
+}
+
+.adults label,
+.kids label {
+  margin-top: 7px;
+
+  font-size: 14px;
+  font-weight: 700;
+}
+
+.time-in,
+.time-out,
+.find-hotels-button {
+  width: 100%;
+}
+
+.search-area .time-in,
+.search-area .time-out{
+  margin: 0;
+  margin-bottom: 30px;
+}
+
+.search-area .adults,
+.search-area .kids {
+  margin: 0;
+  margin-bottom: 54px;
+  display: flex;
+
+}
+
+.search-area input{
+  margin: 0;
+  width: 346px;
+  height: 38px;
+  padding: 13px;
+
+  font-family: "PT Sans", Arial, Helvetica, sans-serif;
+  text-transform: uppercase;
+  font-weight: 700;
+
+  border: none;
+  background-color: #f2f2f2;
+}
+
+.time-in input,
+.time-out input {
+  width: 346px;
+}
+
+.time-in label{
+  margin-right: 15px;
+}
+
+.calendar-button{
+  position: absolute;
+  top: 6px;
+  right: 15px;
+
+  width: 21px;
+  height: 22px;
+
+  border: none;
+  background-color: transparent;
+}
+
+.calendar-button svg{
+  fill: #a9a9a9;
+}
+
+.time-out label{
+  margin-right: 12px;
+}
+
+.adults input,
+.kids input{
+  width: 38px;
+}
+
+.button-minus,
+.button-plus{
+  margin: 0;
+  padding: 0;
+  width: 38px;
+  height: 38px;
+
+  border: none;
+
+  background-color: #f2f2f2;
+
+  vertical-align: top;
+}
+
+.adults label{
+  margin-right: 40px;
+}
+
+.search-area .adults{
+  margin-right: 55px;
+}
+
+.kids label{
+  margin-right: 25px;
+}
+
+/*Map*/
 
 .map{
   width: 100%;
@@ -593,4 +740,7 @@ body {
 .academy-logo:active svg{
   fill: #bdbbbc;
 }
+
+
+
 /*END*/
