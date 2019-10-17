@@ -88,7 +88,7 @@ body {
 
   background-color: #ffffff;
 
-
+  opacity: 0.5;
 }
 
 .logo-wrap {
@@ -121,23 +121,25 @@ body {
 .user-nav li {
   margin: 0;
   margin-left: 73px;
-  margin-right: 73px;
+  margin-right: 67px;
   padding: 0;
+  width: 100px;
 }
 
 .user-nav li:nth-child(2) {
-  margin-right: 316px;
+  margin-right: 296px;
 }
 
 .user-nav li:nth-child(4) {
-  margin-left: 92px;
-  margin-right: 71px;
+  margin-left: 0px;
+  margin-right: 0px;
 
   text-align: right;
 }
 
 .user-nav li:nth-child(3){
   text-align: right;
+  margin-right: 147px;
 }
 
 .user-nav-item {
