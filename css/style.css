@@ -576,6 +576,7 @@ body {
 .time-in input,
 .time-out input {
   width: 346px;
+  margin-right: -20px;
 }
 
 .time-in label{
