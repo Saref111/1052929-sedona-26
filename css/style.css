@@ -58,15 +58,14 @@ body {
   text-transform: uppercase;
 
   background-color: #f2f2f2;
-  background-image: url("../img/sedona-index.png");
-  background-repeat: no-repeat;
-  background-position: center 0;
 }
 
 .body-hotels {
   background-image: url("../img/sedona-hotels.png");
   background-repeat: no-repeat;
   background-position: center 0;
+
+  opacity: 0.5;
 }
 
 .total-wrap {
@@ -87,8 +86,6 @@ body {
   width: 100%;
 
   background-color: #ffffff;
-
-  opacity: 0.5;
 }
 
 .logo-wrap {
@@ -175,8 +172,7 @@ body {
   width: 100%;
 
   background-color: #ffffff;
-  opacity: 0.5;
-  /*for markup*/
+
 }
 
 .welcome-wrap {
@@ -843,6 +839,52 @@ body {
   fill: #bdbbbc;
 }
 
+/*HOTELS*/
+/*filter*/
 
+.filters {
+  width: 1200px;
+
+  background-image: url("../img/filter-background.jpg");
+}
+
+.filters form{
+  display: flex;
+  flex-wrap: wrap;
+  padding: 28px 73px;
+}
+
+.filters fieldset{
+  padding: 0;
+  margin: 0;
+  width: 255px;
+  border: none;
+}
+.filters legend{
+  color: #ffffff;
+  font-size: 16px;
+}
+
+.infrastructure-filter legend {
+  margin-bottom: 25px;
+}
+
+.infrastructure-filters-list{
+  margin: 0;
+  padding: 0;
+  padding-left: 38px;
+  display: flex;
+  flex-direction: column;
+  height: 115px;
+  flex-wrap: wrap;
+
+
+  color: #ffffff;
+  list-style: none;
+}
+
+.infrastructure-filters-list li:not(:last-child){
+  margin-bottom: 25px;
+}
 
 /*END*/
