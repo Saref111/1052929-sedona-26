@@ -851,13 +851,13 @@ body {
 .filters form{
   display: flex;
   flex-wrap: wrap;
-  padding: 28px 73px;
+  padding: 28px 72px;
 }
 
 .filters fieldset{
   padding: 0;
   margin: 0;
-  width: 255px;
+  min-width: 255px;
   border: none;
 }
 .filters legend{
@@ -872,7 +872,7 @@ body {
 .infrastructure-filters-list{
   margin: 0;
   padding: 0;
-  padding-left: 38px;
+  padding-left: 39px;
   display: flex;
   flex-direction: column;
   height: 115px;
@@ -887,4 +887,54 @@ body {
   margin-bottom: 25px;
 }
 
+.filters .type-filter{
+  margin-right: 228px;
+}
+
+.type-filter legend{
+  margin-bottom: 25px;
+}
+
+.type-filters-list{
+  margin: 0;
+  padding: 0;
+  padding-left: 41px;
+  display: flex;
+  flex-direction: column;
+  height: 115px;
+  flex-wrap: wrap;
+
+
+  color: #ffffff;
+  list-style: none;
+}
+
+.type-filters-list li:not(:last-child){
+  margin-bottom: 25px;
+}
+
+.price-filter legend{
+  margin-bottom: 9px;
+}
+
+.price-controls{
+  display: flex;
+  width: 318px;
+
+  border: 2px solid #ffffff;
+  border-radius: 3px;
+  color: #ffffff;
+}
+
+.price-controls input{
+  border: none;
+  margin: 0;
+  padding: 0;
+  width: 40px;
+
+  color: #ffffff;
+
+  border: none;
+  background-color: transparent;
+}
 /*END*/
