@@ -956,6 +956,7 @@ body {
   position: relative;
   padding-left: 10px;
   padding-bottom: 10px;
+  margin-bottom: 20px;
 }
 
 .range {
@@ -984,4 +985,26 @@ body {
   right: 45px;
   top: -10px;
 }
+
+.filters button{
+  display: block;
+  margin: 0;
+  margin-left: 85px;
+  width: 138px;
+  border-radius: 3px;
+  padding: 7px;
+  padding-top: 10px;
+
+  color: #ffffff;
+  text-transform: uppercase;
+
+  background: transparent;
+}
+
+.filters button:hover,
+.filters button:focus{
+  background-color: #ffffff;
+  color: #000000;
+}
+
 /*END*/
