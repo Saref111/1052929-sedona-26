@@ -65,7 +65,7 @@ body {
   background-repeat: no-repeat;
   background-position: center 0;
 
-
+  opacity: 0.5;
 }
 
 .total-wrap {
@@ -1050,6 +1050,117 @@ body {
   color: #000000;
 }
 
+/*Hjtels catalog*/
 
+.catalog{
+  padding: 0 72px;
+}
 
+/*Sorting*/
+
+.result-sorting-wrap{
+  display: flex;
+  flex-wrap: wrap;
+  min-height: 87px;
+  align-items: center;
+}
+
+.result{
+  margin: 0;
+  padding: 0;
+  margin-right: 47px;
+
+  font-size: 21px;
+}
+
+.sorting{
+  display: flex;
+}
+
+.sorting h2{
+  margin: 0;
+  padding: 0;
+  padding-top: 4px;
+  margin-right: 40px;
+
+  font-size: 12px;
+  line-height: 18px;
+  font-weight: 400;
+}
+
+.sorting-list{
+  display: flex;
+  margin: 0;
+  padding: 0;
+  padding-top: 2px;
+  margin-right: 504px;
+
+  list-style: none;
+}
+
+.sorting-list-item{
+  margin: 0;
+  padding: 0;
+
+  border-bottom: 1px dotted #81b3d2;
+
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 18px;
+  color: #000000;
+  opacity: 0.3;
+}
+
+.sorting-list-item:focus,
+.sorting-list-item:hover{
+  color: #81b3d2;
+}
+
+.sorting-list-item:active{
+  color: #000000;
+  border: none;
+}
+
+.current-sorting {
+  border: none;
+  opacity: 1;
+  color: #81b3d2;
+}
+
+.sorting-list li:not(:last-child){
+  margin-right: 33px;
+}
+
+.sorting-direction{
+  display: flex;
+  margin: 0;
+  padding: 0;
+  padding-top: 3px;
+  justify-content: space-between;
+  width: 35px;
+
+  list-style: none;
+}
+
+.sorting-direction-item{
+  width: 11px;
+  height: 11px;
+}
+
+.sorting-direction-item svg{
+  fill: #cacaca;
+}
+
+.current-direction svg{
+  fill: #81b3d2;
+}
+
+.sorting-direction-item:hover svg,
+.sorting-direction-item:focus svg{
+  fill: #000000;
+}
+
+.sorting-direction-item:active svg{
+  fill: #81b3d2;
+}
 /*END*/
