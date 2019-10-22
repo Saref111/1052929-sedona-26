@@ -1050,7 +1050,7 @@ body {
   color: #000000;
 }
 
-/*Hjtels catalog*/
+/*Hotels catalog*/
 
 .catalog{
   padding: 0 72px;
@@ -1059,10 +1059,21 @@ body {
 /*Sorting*/
 
 .result-sorting-wrap{
+  position: relative;
   display: flex;
   flex-wrap: wrap;
   min-height: 87px;
   align-items: center;
+}
+
+.result-sorting-wrap::after{
+  position: absolute;
+  bottom: 0px;
+  left: -72px;
+  content: "";
+  width: 1200px;
+  height: 1px;
+  background-color: #e5e5e5;
 }
 
 .result{
@@ -1162,5 +1173,117 @@ body {
 
 .sorting-direction-item:active svg{
   fill: #81b3d2;
+}
+
+/*Catalog*/
+
+.hotels-list{
+  margin: 0;
+  padding: 0;
+
+  list-style: none;
+}
+
+.hotels-list li{
+  position: relative;
+  margin-bottom: 1px;
+}
+
+.hotels-list li::after{
+  position: absolute;
+  bottom: 0px;
+  left: -72px;
+  content: "";
+  width: 1200px;
+  height: 1px;
+  background-color: #e5e5e5;
+}
+
+.hotels-list-item{
+  display: flex;
+  padding-top: 25px;
+  padding-bottom: 30px;
+}
+
+.hotel-picture{
+  width: 135px;
+  height: 90px;
+  margin-right: 30px;
+  margin-top: 5px;
+}
+
+.hotel-name{
+  margin: 0;
+  margin-bottom: 8px;
+
+  font-size: 21px;
+  line-height: 26px;
+  letter-spacing: 0.3px;
+  color: #000000;
+}
+
+.hotel-name a{
+  color: #000000;
+}
+
+.hotel-name a:focus,
+.hotel-name a:hover{
+  color: #81b3d2;
+}
+
+.hotel-name a:active{
+  color: #000000;
+  opacity: 0.3;
+}
+
+.type-price{
+  margin: 0;
+  margin-bottom: 17px;
+  width: 180px;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+
+  font-size: 14px;
+  line-height: 21px;
+  font-weight: 400;
+}
+
+.more,
+.book{
+  padding: 4px 17px;
+  padding-bottom: 5px;
+
+  color: #ffffff;
+}
+
+
+.more{
+  background-color: #81b3d2;
+  margin-right: 2px;
+}
+
+.more:focus,
+.more:hover{
+  background-color: #669ec0;
+}
+
+.more:active{
+  background-color: #5496bd;
+  color: rgba(255, 255, 255, 0.3);
+}
+
+.book{
+  background-color: #766357;
+}
+
+.book:focus,
+.book:hover{
+  background-color: #604e43;
+}
+
+.book:active{
+  background-color: #503e33;
+  color: rgba(255, 255, 255, 0.3);
 }
 /*END*/
