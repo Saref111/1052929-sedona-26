@@ -58,17 +58,6 @@ body {
   text-transform: uppercase;
 
   background-color: #f2f2f2;
-  background-image: url("../img/sedona-index.png");
-  background-repeat: no-repeat;
-  background-position: center 0;
-
-  opacity: 0.5;
-}
-
-.body-hotels {
-  background-image: url("../img/sedona-hotels.png");
-  background-repeat: no-repeat;
-  background-position: center 0;
 }
 
 .total-wrap {
@@ -519,6 +508,24 @@ body {
   }
 }
 
+@keyframes error{
+  10%,
+  30%,
+  50%,
+  70%,
+  90%{
+    transform: translateX(10px);
+  }
+  0%,
+  20%,
+  40%,
+  60%,
+  80%,
+  100%{
+    transform: translateX(-10px);
+  }
+}
+
 /*Pop-up*/
 
 .search-area {
@@ -547,6 +554,11 @@ body {
   visibility: hidden;
   opacity: 0;
   transition: visibility 0.5s, opacity 0.5s linear;
+}
+
+.search-area-error{
+  animation-name: error;
+  animation-duration: 0.5s;
 }
 
 .search-area form {
@@ -808,6 +820,7 @@ body {
 .footer-index{
   position: absolute;
   bottom: 0;
+  opacity: 0.9;
 }
 
 .hashtag-wrap,
