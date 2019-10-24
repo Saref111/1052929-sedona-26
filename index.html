@@ -141,11 +141,11 @@
         <p>Укажите предполагаемые даты поездки,<span class="oneline"> и мы покажем вам лучшие предложения гостиниц в
             седоне</span></p>
         <div class="hotel-search-wrap">
-          <a href="#" class="hotel-search"><span class="oneline">Поиск гостиницы в Седоне</span></a>
+          <a href="#" class="hotel-search" id="search-open-button"><span class="oneline">Поиск гостиницы в Седоне</span></a>
         </div>
-        <section class="search-area">
+        <section class="search-area" id="hotel-search-area">
           <h3 class="visually-hidden">Поиск отелей</h3>
-          <form action="https://echo.htmlacademy.ru" method="post">
+          <form action="https://echo.htmlacademy.ru" method="post" id="hotel-search-form">
             <p class="time-in">
               <label for="ariving-time">Дата заезда:</label>
               <input type="text" name="ariving" id="ariving-time" value="24 Апреля 2017">
@@ -294,7 +294,7 @@
       </div>
     </footer>
   </div>
-
+  <script src="js/script.js"></script>
 </body>
 
 </html>
