@@ -90,30 +90,32 @@
           <p class="result">Найдено: <span class="amount">3</span></p>
           <section class="sorting">
             <h2>Сортировка:</h2>
-            <ul class="sorting-list" aria-label="Типы сортировки">
-              <li><a class="sorting-list-item current-sorting" href="#">По цене</a></li>
-              <li><a class="sorting-list-item" href="#">По типу</a></li>
-              <li><a class="sorting-list-item" href="#">По рейтингу</a></li>
-            </ul>
-            <ul class="sorting-direction" aria-label="Направление сортировки">
-              <li><a class="sorting-direction-item" href="#"><svg version="1.1" id="Layer_1"
-                    xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
-                    width="11px" height="10px" viewBox="0 0 11 10" enable-background="new 0 0 11 10"
-                    xml:space="preserve">
-                    <polygon  points="5.5,0 0,10 11,10 " />
-                  </svg><span class="visually-hidden">По возрастанию</span></a></li>
-              <li><a class="sorting-direction-item current-direction" href="#"><svg version="1.1" id="Layer_1"
-                    xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
-                    width="11px" height="10px" viewBox="0 0 11 10" enable-background="new 0 0 11 10"
-                    xml:space="preserve">
-                    <polyline  points="5.5,10 0,0 11,0 " />
-                  </svg><span class="visually-hidden">По убыванию</span></a></li>
-            </ul>
+
+              <ul class="sorting-list" aria-label="Типы сортировки">
+                <li><a class="sorting-list-item current-sorting" href="#">По цене</a></li>
+                <li><a class="sorting-list-item" href="#">По типу</a></li>
+                <li><a class="sorting-list-item" href="#">По рейтингу</a></li>
+              </ul>
+              <ul class="sorting-direction" aria-label="Направление сортировки">
+                <li><a class="sorting-direction-item" href="#"><svg version="1.1" id="Layer_1"
+                      xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+                      width="11px" height="10px" viewBox="0 0 11 10" enable-background="new 0 0 11 10"
+                      xml:space="preserve">
+                      <polygon  points="5.5,0 0,10 11,10 " />
+                    </svg><span class="visually-hidden">По возрастанию</span></a></li>
+                <li><a class="sorting-direction-item current-direction" href="#"><svg version="1.1" id="Layer_1"
+                      xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+                      width="11px" height="10px" viewBox="0 0 11 10" enable-background="new 0 0 11 10"
+                      xml:space="preserve">
+                      <polyline  points="5.5,10 0,0 11,0 " />
+                    </svg><span class="visually-hidden">По убыванию</span></a></li>
+              </ul>
+
           </section>
         </div>
         <h2 class="visually-hidden">Достуные отели</h2>
         <ul class="hotels-list">
-          <li>
+          <li class="hotels-list-element">
             <article class="hotels-list-item">
               <div class="hotel-picture"><img src="img/amara-resort.jpg" width="135" height="90" alt="Вид на Amara Resort & Spa"></div>
               <div class="hotel-info-wrap">
@@ -127,7 +129,7 @@
               </div>
             </article>
           </li>
-          <li>
+          <li class="hotels-list-element">
             <article class="hotels-list-item">
               <div class="hotel-picture"><img src="img/desert-quail.jpg" width="135" height="90" alt="Вид на Desert Quail Inn"></div>
               <div class="hotel-info-wrap">
@@ -141,7 +143,7 @@
               </div>
             </article>
           </li>
-          <li>
+          <li class="hotels-list-element">
             <article class="hotels-list-item">
               <div class="hotel-picture"><img src="img/villa-poco-diablo.jpg" width="135" height="90" alt="Вид на Villas at Poco Diablo"></div>
               <div class="hotel-info-wrap">
