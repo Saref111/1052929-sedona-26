@@ -1073,10 +1073,9 @@ body {
 .result-sorting-wrap{
   position: relative;
   display: flex;
-  justify-content: space-between;
 
   min-height: 87px;
-  align-items: center;
+  padding-top: 32px;
 }
 
 .result-sorting-wrap::after{
@@ -1092,14 +1091,16 @@ body {
 .result{
   margin: 0;
   padding: 0;
+  margin-right: 48px;
 
   font-size: 21px;
+  white-space: nowrap;
 }
 
 .sorting{
   display: flex;
   flex-wrap: wrap;
-  width: 84.5%;
+  width: 890px;
 }
 
 .sorting h2{
@@ -1111,12 +1112,6 @@ body {
   font-size: 12px;
   line-height: 18px;
   font-weight: 400;
-}
-
-.sorting-wrap{
-  display: flex;
-  justify-content: space-between;
-  width: 87%;
 }
 
 .sorting-list{
