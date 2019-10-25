@@ -1058,6 +1058,13 @@ body {
   background-image: url("../img/checkbox-on-dis.svg");
 }
 
+.filters input[type="checkbox"]:focus+label{
+  outline-color: rgb(204, 219, 243); // #4D90FE
+  outline-offset: 2px;
+  outline-style: auto;
+  outline-width: 5px;
+}
+
 .filters .price-filter {
   margin-bottom: 20px;
 }
