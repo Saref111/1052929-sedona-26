@@ -59,7 +59,7 @@ body {
   text-transform: uppercase;
 
   background-color: #f2f2f2;
-  background-image: url("../img/sedona-hotels.jpg");
+  background-image: url("../img/sedona-index.jpg");
   background-repeat: no-repeat;
   background-position: center center;
 
@@ -199,6 +199,8 @@ body {
 
 /*Features*/
 
+
+
 .description {
   width: 100%;
 }
@@ -244,6 +246,36 @@ body {
       flex-wrap: wrap;
 
   list-style: none;
+}
+
+.features-list-item:not(:nth-child(1)):not(:nth-child(2)) {
+  width: 400px;
+
+  text-align: center;
+
+  background-color: #eeeeee;
+}
+
+.features-list-item:not(:nth-child(1)):not(:nth-child(2)) .feautre-content   {
+  padding-top: 48px;
+  padding-bottom: 59px;
+}
+
+.features-list-item:not(:nth-child(1)):not(:nth-child(2)) .feature-heading{
+  margin: 0 130px;
+  margin-bottom: 22px;
+}
+
+.features-list-item .feature-decription {
+  margin: 0 60px;
+}
+
+.features-list-item:nth-child(4) .feature-decription {
+  margin: 0 65px;
+}
+
+.features-list-item:nth-child(5) .feature-decription {
+  margin: 0 71px;
 }
 
 .features-list-item:nth-child(1),
@@ -408,41 +440,7 @@ body {
   background-color: #e37f56;
 }
 
-.features-list-item:nth-child(3),
-.features-list-item:nth-child(4),
-.features-list-item:nth-child(5) {
-  width: 400px;
 
-  text-align: center;
-
-  background-color: #eeeeee;
-}
-
-.features-list-item:nth-child(3) .feautre-content,
-.features-list-item:nth-child(4) .feautre-content,
-.features-list-item:nth-child(5) .feautre-content {
-  padding-top: 48px;
-  padding-bottom: 59px;
-}
-
-.features-list-item:nth-child(3) .feature-heading,
-.features-list-item:nth-child(4) .feature-heading,
-.features-list-item:nth-child(5) .feature-heading {
-  margin: 0 130px;
-  margin-bottom: 22px;
-}
-
-.features-list-item:nth-child(3) .feature-decription {
-  margin: 0 60px;
-}
-
-.features-list-item:nth-child(4) .feature-decription {
-  margin: 0 65px;
-}
-
-.features-list-item:nth-child(5) .feature-decription {
-  margin: 0 71px;
-}
 
 /*locations*/
 
